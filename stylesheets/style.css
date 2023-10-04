@@ -1,0 +1,181 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  background: lightblue;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+header{
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 25px;
+  background: whitesmoke;
+}
+.CV{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px
+}
+.logo{
+  height: 50px;
+  transition: all 0.5s ease;
+}
+.CV h3{
+  font-size: 18px;
+  font-style: italic;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu>li{
+  transition: all 0.5s ease;
+}
+.menu>li:hover{
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+
+.menu>li a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.menu>li a:hover{
+  color: darkgoldenrod;
+}
+
+
+main {
+  background: lightblue;
+}
+
+.me{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-top: 20px;
+}
+
+.socialmedia>a img{
+  height: 50px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+.socialmedia>a img:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+
+
+.section{
+  padding: 20px;
+  margin: 20px auto;
+  width: 70%;
+}
+.section>h3{
+  padding: 0px;
+  margin: 0px;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.section>div{
+  margin-top: 30px;
+  padding: 15px 30px;
+  border-radius: 20px;
+  background: rgba(245, 245, 245, 0.7);
+  box-shadow: 0px 4px 7px rgba(0,0,0,0.25);
+  transition: all 0.5s ease;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.section>div:hover{
+  transition: all 0.5s ease;
+  box-shadow: 0px 6px 12px rgba(184, 134, 11, 0.6);
+}
+
+article{
+  display: block;
+  padding-left: 15px;
+}
+.section h4{
+  padding: 0px;
+  margin: 0px;
+
+  margin-top: 14px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.section span{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15px;
+  color: darkgoldenrod;
+}
+.section img{
+  width: 60px;
+}
+
+
+#projects>div{
+  padding: 30px;
+}
+.project>img{
+  width: 300px;
+}
+.project>article{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.project>article>img{
+  height: 30px;
+  width: auto;
+  padding-bottom: 8px;
+}
+
+
+footer{
+  background: whitesmoke;
+  height: 70px;
+}
+
+footer>p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
